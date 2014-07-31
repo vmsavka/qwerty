@@ -20,5 +20,9 @@
 @property (strong, nonatomic) NSMutableArray * placemarks;
 @property (strong, nonatomic) NSMutableArray *pinNameArr;
 @property (strong, nonatomic) MKRoute *routeDetails;
+@property (nonatomic,strong) CLGeocoder *someGeocoder;
+@property (nonatomic, strong) UILongPressGestureRecognizer * longPressGestureRecognizer;
+
+
 - (void) multiNavigation:(NSNotification *)n;
 @end
