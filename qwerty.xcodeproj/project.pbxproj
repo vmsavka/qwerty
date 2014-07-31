@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D02442B1987C49700763295 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D02442A1987C49700763295 /* MapKit.framework */; };
+		4D0244301987CC9600763295 /* PropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D02442F1987CC9600763295 /* PropertyList.plist */; };
+		4D461A5F1987BD5900E08BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D461A5E1987BD5900E08BDA /* Foundation.framework */; };
+		4D461A611987BD5900E08BDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D461A601987BD5900E08BDA /* CoreGraphics.framework */; };
+		4D461A631987BD5900E08BDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D461A621987BD5900E08BDA /* UIKit.framework */; };
+		4D461A691987BD5900E08BDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D461A671987BD5900E08BDA /* InfoPlist.strings */; };
+		4D461A6B1987BD5900E08BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D461A6A1987BD5900E08BDA /* main.m */; };
+		4D461A6F1987BD5900E08BDA /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D461A6E1987BD5900E08BDA /* BNRAppDelegate.m */; };
+		4D461A721987BD5900E08BDA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D461A701987BD5900E08BDA /* Main_iPhone.storyboard */; };
+		4D461A781987BD5900E08BDA /* BNRMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D461A771987BD5900E08BDA /* BNRMasterViewController.m */; };
+		4D461A7B1987BD5900E08BDA /* BNRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D461A7A1987BD5900E08BDA /* BNRDetailViewController.m */; };
+		4D461A7D1987BD5900E08BDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D461A7C1987BD5900E08BDA /* Images.xcassets */; };
+		4D461A841987BD5900E08BDA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D461A831987BD5900E08BDA /* XCTest.framework */; };
+		4D461A851987BD5A00E08BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D461A5E1987BD5900E08BDA /* Foundation.framework */; };
+		4D461A861987BD5A00E08BDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D461A621987BD5900E08BDA /* UIKit.framework */; };
+		4D461A8E1987BD5A00E08BDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D461A8C1987BD5A00E08BDA /* InfoPlist.strings */; };
+		4D461A901987BD5A00E08BDA /* qwertyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D461A8F1987BD5A00E08BDA /* qwertyTests.m */; };
+		D2E02E0119891230000A634E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E02DFF19891230000A634E /* Main_iPad.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D461A871987BD5A00E08BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D461A531987BD5900E08BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D461A5A1987BD5900E08BDA;
+			remoteInfo = qwerty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D02442A1987C49700763295 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4D02442F1987CC9600763295 /* PropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PropertyList.plist; sourceTree = "<group>"; };
+		4D461A5B1987BD5900E08BDA /* qwerty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qwerty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D461A5E1987BD5900E08BDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D461A601987BD5900E08BDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D461A621987BD5900E08BDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D461A661987BD5900E08BDA /* qwerty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "qwerty-Info.plist"; sourceTree = "<group>"; };
+		4D461A681987BD5900E08BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D461A6A1987BD5900E08BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D461A6C1987BD5900E08BDA /* qwerty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "qwerty-Prefix.pch"; sourceTree = "<group>"; };
+		4D461A6D1987BD5900E08BDA /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
+		4D461A6E1987BD5900E08BDA /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
+		4D461A711987BD5900E08BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4D461A761987BD5900E08BDA /* BNRMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRMasterViewController.h; sourceTree = "<group>"; };
+		4D461A771987BD5900E08BDA /* BNRMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRMasterViewController.m; sourceTree = "<group>"; };
+		4D461A791987BD5900E08BDA /* BNRDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRDetailViewController.h; sourceTree = "<group>"; };
+		4D461A7A1987BD5900E08BDA /* BNRDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRDetailViewController.m; sourceTree = "<group>"; };
+		4D461A7C1987BD5900E08BDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D461A821987BD5900E08BDA /* qwertyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qwertyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D461A831987BD5900E08BDA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4D461A8B1987BD5A00E08BDA /* qwertyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "qwertyTests-Info.plist"; sourceTree = "<group>"; };
+		4D461A8D1987BD5A00E08BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D461A8F1987BD5A00E08BDA /* qwertyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qwertyTests.m; sourceTree = "<group>"; };
+		D2E02E0019891230000A634E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D461A581987BD5900E08BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D02442B1987C49700763295 /* MapKit.framework in Frameworks */,
+				4D461A611987BD5900E08BDA /* CoreGraphics.framework in Frameworks */,
+				4D461A631987BD5900E08BDA /* UIKit.framework in Frameworks */,
+				4D461A5F1987BD5900E08BDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D461A7F1987BD5900E08BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D461A841987BD5900E08BDA /* XCTest.framework in Frameworks */,
+				4D461A861987BD5A00E08BDA /* UIKit.framework in Frameworks */,
+				4D461A851987BD5A00E08BDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D461A521987BD5900E08BDA = {
+			isa = PBXGroup;
+			children = (
+				4D461A641987BD5900E08BDA /* qwerty */,
+				4D461A891987BD5A00E08BDA /* qwertyTests */,
+				4D461A5D1987BD5900E08BDA /* Frameworks */,
+				4D461A5C1987BD5900E08BDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D461A5C1987BD5900E08BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D461A5B1987BD5900E08BDA /* qwerty.app */,
+				4D461A821987BD5900E08BDA /* qwertyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D461A5D1987BD5900E08BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D02442A1987C49700763295 /* MapKit.framework */,
+				4D461A5E1987BD5900E08BDA /* Foundation.framework */,
+				4D461A601987BD5900E08BDA /* CoreGraphics.framework */,
+				4D461A621987BD5900E08BDA /* UIKit.framework */,
+				4D461A831987BD5900E08BDA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D461A641987BD5900E08BDA /* qwerty */ = {
+			isa = PBXGroup;
+			children = (
+				4D461A6D1987BD5900E08BDA /* BNRAppDelegate.h */,
+				4D461A6E1987BD5900E08BDA /* BNRAppDelegate.m */,
+				D2E02DFF19891230000A634E /* Main_iPad.storyboard */,
+				4D461A701987BD5900E08BDA /* Main_iPhone.storyboard */,
+				4D461A761987BD5900E08BDA /* BNRMasterViewController.h */,
+				4D461A771987BD5900E08BDA /* BNRMasterViewController.m */,
+				4D461A791987BD5900E08BDA /* BNRDetailViewController.h */,
+				4D461A7A1987BD5900E08BDA /* BNRDetailViewController.m */,
+				4D461A7C1987BD5900E08BDA /* Images.xcassets */,
+				4D461A651987BD5900E08BDA /* Supporting Files */,
+				4D02442F1987CC9600763295 /* PropertyList.plist */,
+			);
+			path = qwerty;
+			sourceTree = "<group>";
+		};
+		4D461A651987BD5900E08BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D461A661987BD5900E08BDA /* qwerty-Info.plist */,
+				4D461A671987BD5900E08BDA /* InfoPlist.strings */,
+				4D461A6A1987BD5900E08BDA /* main.m */,
+				4D461A6C1987BD5900E08BDA /* qwerty-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D461A891987BD5A00E08BDA /* qwertyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D461A8F1987BD5A00E08BDA /* qwertyTests.m */,
+				4D461A8A1987BD5A00E08BDA /* Supporting Files */,
+			);
+			path = qwertyTests;
+			sourceTree = "<group>";
+		};
+		4D461A8A1987BD5A00E08BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D461A8B1987BD5A00E08BDA /* qwertyTests-Info.plist */,
+				4D461A8C1987BD5A00E08BDA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D461A5A1987BD5900E08BDA /* qwerty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D461A931987BD5A00E08BDA /* Build configuration list for PBXNativeTarget "qwerty" */;
+			buildPhases = (
+				4D461A571987BD5900E08BDA /* Sources */,
+				4D461A581987BD5900E08BDA /* Frameworks */,
+				4D461A591987BD5900E08BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qwerty;
+			productName = qwerty;
+			productReference = 4D461A5B1987BD5900E08BDA /* qwerty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D461A811987BD5900E08BDA /* qwertyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D461A961987BD5A00E08BDA /* Build configuration list for PBXNativeTarget "qwertyTests" */;
+			buildPhases = (
+				4D461A7E1987BD5900E08BDA /* Sources */,
+				4D461A7F1987BD5900E08BDA /* Frameworks */,
+				4D461A801987BD5900E08BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D461A881987BD5A00E08BDA /* PBXTargetDependency */,
+			);
+			name = qwertyTests;
+			productName = qwertyTests;
+			productReference = 4D461A821987BD5900E08BDA /* qwertyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D461A531987BD5900E08BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BNR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Oleksiy;
+				TargetAttributes = {
+					4D461A811987BD5900E08BDA = {
+						TestTargetID = 4D461A5A1987BD5900E08BDA;
+					};
+				};
+			};
+			buildConfigurationList = 4D461A561987BD5900E08BDA /* Build configuration list for PBXProject "qwerty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D461A521987BD5900E08BDA;
+			productRefGroup = 4D461A5C1987BD5900E08BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D461A5A1987BD5900E08BDA /* qwerty */,
+				4D461A811987BD5900E08BDA /* qwertyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D461A591987BD5900E08BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E02E0119891230000A634E /* Main_iPad.storyboard in Resources */,
+				4D461A7D1987BD5900E08BDA /* Images.xcassets in Resources */,
+				4D461A721987BD5900E08BDA /* Main_iPhone.storyboard in Resources */,
+				4D0244301987CC9600763295 /* PropertyList.plist in Resources */,
+				4D461A691987BD5900E08BDA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D461A801987BD5900E08BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D461A8E1987BD5A00E08BDA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D461A571987BD5900E08BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D461A7B1987BD5900E08BDA /* BNRDetailViewController.m in Sources */,
+				4D461A6B1987BD5900E08BDA /* main.m in Sources */,
+				4D461A781987BD5900E08BDA /* BNRMasterViewController.m in Sources */,
+				4D461A6F1987BD5900E08BDA /* BNRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D461A7E1987BD5900E08BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D461A901987BD5A00E08BDA /* qwertyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D461A881987BD5A00E08BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D461A5A1987BD5900E08BDA /* qwerty */;
+			targetProxy = 4D461A871987BD5A00E08BDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D461A671987BD5900E08BDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D461A681987BD5900E08BDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D461A701987BD5900E08BDA /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D461A711987BD5900E08BDA /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4D461A8C1987BD5A00E08BDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D461A8D1987BD5A00E08BDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D2E02DFF19891230000A634E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E02E0019891230000A634E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D461A911987BD5A00E08BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D461A921987BD5A00E08BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D461A941987BD5A00E08BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "qwerty/qwerty-Prefix.pch";
+				INFOPLIST_FILE = "qwerty/qwerty-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D461A951987BD5A00E08BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "qwerty/qwerty-Prefix.pch";
+				INFOPLIST_FILE = "qwerty/qwerty-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D461A971987BD5A00E08BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/qwerty.app/qwerty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "qwerty/qwerty-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "qwertyTests/qwertyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4D461A981987BD5A00E08BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/qwerty.app/qwerty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "qwerty/qwerty-Prefix.pch";
+				INFOPLIST_FILE = "qwertyTests/qwertyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D461A561987BD5900E08BDA /* Build configuration list for PBXProject "qwerty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D461A911987BD5A00E08BDA /* Debug */,
+				4D461A921987BD5A00E08BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D461A931987BD5A00E08BDA /* Build configuration list for PBXNativeTarget "qwerty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D461A941987BD5A00E08BDA /* Debug */,
+				4D461A951987BD5A00E08BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D461A961987BD5A00E08BDA /* Build configuration list for PBXNativeTarget "qwertyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D461A971987BD5A00E08BDA /* Debug */,
+				4D461A981987BD5A00E08BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D461A531987BD5900E08BDA /* Project object */;
+}
