@@ -83,6 +83,7 @@
 - (void) multiNavigation:(NSNotification *)n
 {
     static BOOL first=true;
+
     BOOL multipleSelection=((BNRMasterViewController *)n.object).table.allowsMultipleSelection;
     if(!multipleSelection)
     {
@@ -136,6 +137,7 @@
         }
         
     }
+
 }
 
 
@@ -255,7 +257,17 @@
 {
     [self.map removeAnnotations:self.pinArr];
     [self.pinArr removeAllObjects];
+    for( UITextField * txt in _pinNameArr)
+    {
+        [txt removeFromSuperview];
+    }
     [self.pinNameArr removeAllObjects];
+    NSArray *indexes=[self.master.table indexPathsForSelectedRows];
+    for( NSIndexPath *path in indexes)
+    {
+        [self.master.table deselectRowAtIndexPath:path animated:NO];
+    }
+    
 }
 
 

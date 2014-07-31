@@ -79,7 +79,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-
+    cell.selectionStyle=UITableViewCellSelectionStyleNone;
 //    NSDate *object = _objects[indexPath.row];
     NSString *cityName = self.arr[indexPath.row][@"city"] ;
     
