@@ -7,12 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BNRAddViewController.h"
 
 @class BNRDetailViewController;
 
-@interface BNRMasterViewController : UITableViewController
+@interface BNRMasterViewController : UITableViewController <BNRAddViewControllerDelegate>
 
 @property (weak, nonatomic) BNRDetailViewController *detailViewController;
 @property (weak, nonatomic) IBOutlet UITableView *table;
 @property (nonatomic, strong) NSMutableArray *arr;
+
 @end
+

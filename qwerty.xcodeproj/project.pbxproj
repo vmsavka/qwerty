@@ -24,6 +24,7 @@
 		4D461A861987BD5A00E08BDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D461A621987BD5900E08BDA /* UIKit.framework */; };
 		4D461A8E1987BD5A00E08BDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D461A8C1987BD5A00E08BDA /* InfoPlist.strings */; };
 		4D461A901987BD5A00E08BDA /* qwertyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D461A8F1987BD5A00E08BDA /* qwertyTests.m */; };
+		4D8B7096198B8E450010D5B1 /* BNRAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B7095198B8E450010D5B1 /* BNRAddViewController.m */; };
 		D2E02E0119891230000A634E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E02DFF19891230000A634E /* Main_iPad.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,8 @@
 		4D461A8B1987BD5A00E08BDA /* qwertyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "qwertyTests-Info.plist"; sourceTree = "<group>"; };
 		4D461A8D1987BD5A00E08BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D461A8F1987BD5A00E08BDA /* qwertyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qwertyTests.m; sourceTree = "<group>"; };
+		4D8B7094198B8E450010D5B1 /* BNRAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRAddViewController.h; sourceTree = "<group>"; };
+		4D8B7095198B8E450010D5B1 /* BNRAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRAddViewController.m; sourceTree = "<group>"; };
 		D2E02E0019891230000A634E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +129,8 @@
 				4D461A6D1987BD5900E08BDA /* BNRAppDelegate.h */,
 				4D461A6E1987BD5900E08BDA /* BNRAppDelegate.m */,
 				D2E02DFF19891230000A634E /* Main_iPad.storyboard */,
+				4D8B7094198B8E450010D5B1 /* BNRAddViewController.h */,
+				4D8B7095198B8E450010D5B1 /* BNRAddViewController.m */,
 				4D461A701987BD5900E08BDA /* Main_iPhone.storyboard */,
 				4D461A761987BD5900E08BDA /* BNRMasterViewController.h */,
 				4D461A771987BD5900E08BDA /* BNRMasterViewController.m */,
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D461A7B1987BD5900E08BDA /* BNRDetailViewController.m in Sources */,
+				4D8B7096198B8E450010D5B1 /* BNRAddViewController.m in Sources */,
 				4D461A6B1987BD5900E08BDA /* main.m in Sources */,
 				4D461A781987BD5900E08BDA /* BNRMasterViewController.m in Sources */,
 				4D461A6F1987BD5900E08BDA /* BNRAppDelegate.m in Sources */,
