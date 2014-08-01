@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3B19288C-A5A6-494A-BA90-BB6DCC976325</string>
+	<key>IDESourceControlProjectName</key>
+	<string>qwerty</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>45E16FCC-77FD-49F6-A72C-CD66EE8E05A1</key>
+		<string>https://github.com/Sunrise13/qwerty.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>qwerty.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>45E16FCC-77FD-49F6-A72C-CD66EE8E05A1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Sunrise13/qwerty.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>45E16FCC-77FD-49F6-A72C-CD66EE8E05A1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>45E16FCC-77FD-49F6-A72C-CD66EE8E05A1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Project Map</string>
+		</dict>
+	</array>
+</dict>
+</plist>
