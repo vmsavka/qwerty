@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "qwerty/BNRDetailViewController.m"
-            timestampString = "428500325.491303"
+            timestampString = "428582988.02629"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "308"
             endingLineNumber = "308"
-            landmarkName = "-mapView:rendererForOverlay:"
+            landmarkName = "-splitViewController:willShowViewController:invalidatingBarButtonItem:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

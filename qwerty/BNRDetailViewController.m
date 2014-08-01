@@ -143,6 +143,7 @@
 
 -(void)getGeolocations
 {
+    NSLog(@"In getGeolocation");
      NSArray * pathes=[self.master.table indexPathsForSelectedRows];
     NSInteger pathes_row=[pathes count]-1;
     for(int i=0; i<[pathes count]; i++)
@@ -160,10 +161,12 @@
                         //[self displayError:error];
                         return;
                     }
+                    NSLog(@"Create placemark %d", i);
                     [self.placemarks addObject:placemark];
-                    if(pathes_row==i)
+                    if([self.placemarks count]==[pathes count])
                         [self calculateAndShowRoutes];
                 }];
+      
         //NSLog(@"%@",((CLPlacemark *)self.placemarks[i]).country);
         
             
@@ -175,6 +178,7 @@
 
 - (void)calculateAndShowRoutes
 {
+    NSLog(@"In calculateAndShowRoutes");
        NSArray * pathes=[self.master.table indexPathsForSelectedRows];
     for(int i=0; i<=[pathes count]-2; i++)
     {
@@ -186,12 +190,8 @@
             if (error) {
                 NSLog(@"Error %@", error.description);
             } else {
+                NSLog(@"create route %d",i);
                 _routeDetails = response.routes.lastObject;
-                if(_routeDetails!=nil)
-                {
-                    if(_routeDetails.polyline!=nil)
-                        NSLog(@"Hello");
-                }
                 _map.delegate=self;
                 [_map addOverlay:_routeDetails.polyline];
                 
