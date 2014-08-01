@@ -14,9 +14,6 @@
     NSMutableArray *_objects;
 }
 
-
-
-
 @end
 
 @implementation BNRMasterViewController
@@ -142,7 +139,13 @@
         
         [[segue destinationViewController] setDetailItem:dic];
     }
+    
+    if ([segue.identifier isEqualToString:@"AddCity"]) {
+        BNRAddViewController *PickerViewController = segue.destinationViewController;
+        PickerViewController.delegate = self;
+    }
 }
+
 - (IBAction)selectItems:(UIBarButtonItem *)sender
 {
     if([sender.title isEqual:@"Select"])
@@ -153,5 +156,11 @@
     }
            
 }
+
+- (void)AddViewController:(BNRAddViewController *)controller didAddCity:(NSDictionary *)city
+{
+    [_arr addObject:city];
+}
+
 
 @end
