@@ -40,14 +40,14 @@
 /* Begin PBXFileReference section */
 		4D02442A1987C49700763295 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		4D02442F1987CC9600763295 /* PropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PropertyList.plist; sourceTree = "<group>"; };
-		4D461A5B1987BD5900E08BDA /* map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = map.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D461A5B1987BD5900E08BDA /* qwerty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qwerty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D461A5E1987BD5900E08BDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4D461A601987BD5900E08BDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4D461A621987BD5900E08BDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		4D461A661987BD5900E08BDA /* map-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "map-Info.plist"; sourceTree = "<group>"; };
+		4D461A661987BD5900E08BDA /* qwerty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "qwerty-Info.plist"; sourceTree = "<group>"; };
 		4D461A681987BD5900E08BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D461A6A1987BD5900E08BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4D461A6C1987BD5900E08BDA /* map-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "map-Prefix.pch"; sourceTree = "<group>"; };
+		4D461A6C1987BD5900E08BDA /* qwerty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "qwerty-Prefix.pch"; sourceTree = "<group>"; };
 		4D461A6D1987BD5900E08BDA /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
 		4D461A6E1987BD5900E08BDA /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
 		4D461A711987BD5900E08BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
@@ -56,9 +56,9 @@
 		4D461A791987BD5900E08BDA /* BNRDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRDetailViewController.h; sourceTree = "<group>"; };
 		4D461A7A1987BD5900E08BDA /* BNRDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRDetailViewController.m; sourceTree = "<group>"; };
 		4D461A7C1987BD5900E08BDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4D461A821987BD5900E08BDA /* mapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D461A821987BD5900E08BDA /* qwertyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qwertyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D461A831987BD5900E08BDA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4D461A8B1987BD5A00E08BDA /* mapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mapTests-Info.plist"; sourceTree = "<group>"; };
+		4D461A8B1987BD5A00E08BDA /* qwertyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "qwertyTests-Info.plist"; sourceTree = "<group>"; };
 		4D461A8D1987BD5A00E08BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D461A8F1987BD5A00E08BDA /* qwertyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qwertyTests.m; sourceTree = "<group>"; };
 		D2E02E0019891230000A634E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		4D461A521987BD5900E08BDA = {
 			isa = PBXGroup;
 			children = (
-				4D461A641987BD5900E08BDA /* map */,
+				4D461A641987BD5900E08BDA /* qwerty */,
 				4D461A891987BD5A00E08BDA /* qwertyTests */,
 				4D461A5D1987BD5900E08BDA /* Frameworks */,
 				4D461A5C1987BD5900E08BDA /* Products */,
@@ -102,8 +102,8 @@
 		4D461A5C1987BD5900E08BDA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D461A5B1987BD5900E08BDA /* map.app */,
-				4D461A821987BD5900E08BDA /* mapTests.xctest */,
+				4D461A5B1987BD5900E08BDA /* qwerty.app */,
+				4D461A821987BD5900E08BDA /* qwertyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4D461A641987BD5900E08BDA /* map */ = {
+		4D461A641987BD5900E08BDA /* qwerty */ = {
 			isa = PBXGroup;
 			children = (
 				4D461A6D1987BD5900E08BDA /* BNRAppDelegate.h */,
@@ -135,17 +135,16 @@
 				4D461A651987BD5900E08BDA /* Supporting Files */,
 				4D02442F1987CC9600763295 /* PropertyList.plist */,
 			);
-			name = map;
 			path = qwerty;
 			sourceTree = "<group>";
 		};
 		4D461A651987BD5900E08BDA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D461A661987BD5900E08BDA /* map-Info.plist */,
+				4D461A661987BD5900E08BDA /* qwerty-Info.plist */,
 				4D461A671987BD5900E08BDA /* InfoPlist.strings */,
 				4D461A6A1987BD5900E08BDA /* main.m */,
-				4D461A6C1987BD5900E08BDA /* map-Prefix.pch */,
+				4D461A6C1987BD5900E08BDA /* qwerty-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,7 +161,7 @@
 		4D461A8A1987BD5A00E08BDA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D461A8B1987BD5A00E08BDA /* mapTests-Info.plist */,
+				4D461A8B1987BD5A00E08BDA /* qwertyTests-Info.plist */,
 				4D461A8C1987BD5A00E08BDA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -171,9 +170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D461A5A1987BD5900E08BDA /* map */ = {
+		4D461A5A1987BD5900E08BDA /* qwerty */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D461A931987BD5A00E08BDA /* Build configuration list for PBXNativeTarget "map" */;
+			buildConfigurationList = 4D461A931987BD5A00E08BDA /* Build configuration list for PBXNativeTarget "qwerty" */;
 			buildPhases = (
 				4D461A571987BD5900E08BDA /* Sources */,
 				4D461A581987BD5900E08BDA /* Frameworks */,
@@ -183,14 +182,14 @@
 			);
 			dependencies = (
 			);
-			name = map;
+			name = qwerty;
 			productName = qwerty;
-			productReference = 4D461A5B1987BD5900E08BDA /* map.app */;
+			productReference = 4D461A5B1987BD5900E08BDA /* qwerty.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4D461A811987BD5900E08BDA /* mapTests */ = {
+		4D461A811987BD5900E08BDA /* qwertyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D461A961987BD5A00E08BDA /* Build configuration list for PBXNativeTarget "mapTests" */;
+			buildConfigurationList = 4D461A961987BD5A00E08BDA /* Build configuration list for PBXNativeTarget "qwertyTests" */;
 			buildPhases = (
 				4D461A7E1987BD5900E08BDA /* Sources */,
 				4D461A7F1987BD5900E08BDA /* Frameworks */,
@@ -201,9 +200,9 @@
 			dependencies = (
 				4D461A881987BD5A00E08BDA /* PBXTargetDependency */,
 			);
-			name = mapTests;
+			name = qwertyTests;
 			productName = qwertyTests;
-			productReference = 4D461A821987BD5900E08BDA /* mapTests.xctest */;
+			productReference = 4D461A821987BD5900E08BDA /* qwertyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D461A561987BD5900E08BDA /* Build configuration list for PBXProject "map" */;
+			buildConfigurationList = 4D461A561987BD5900E08BDA /* Build configuration list for PBXProject "qwerty" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,8 +233,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D461A5A1987BD5900E08BDA /* map */,
-				4D461A811987BD5900E08BDA /* mapTests */,
+				4D461A5A1987BD5900E08BDA /* qwerty */,
+				4D461A811987BD5900E08BDA /* qwertyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,7 +287,7 @@
 /* Begin PBXTargetDependency section */
 		4D461A881987BD5A00E08BDA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4D461A5A1987BD5900E08BDA /* map */;
+			target = 4D461A5A1987BD5900E08BDA /* qwerty */;
 			targetProxy = 4D461A871987BD5A00E08BDA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,10 +408,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "qwerty/map-Prefix.pch";
+				GCC_PREFIX_HEADER = "qwerty/qwerty-Prefix.pch";
 				INFOPLIST_FILE = "qwerty/qwerty-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = map;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -423,10 +422,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "qwerty/map-Prefix.pch";
+				GCC_PREFIX_HEADER = "qwerty/qwerty-Prefix.pch";
 				INFOPLIST_FILE = "qwerty/qwerty-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = map;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -447,8 +446,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "qwertyTests/mapTests-Info.plist";
-				PRODUCT_NAME = mapTests;
+				INFOPLIST_FILE = "qwertyTests/qwertyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -466,8 +465,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "qwerty/qwerty-Prefix.pch";
-				INFOPLIST_FILE = "qwertyTests/mapTests-Info.plist";
-				PRODUCT_NAME = mapTests;
+				INFOPLIST_FILE = "qwertyTests/qwertyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -476,7 +475,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D461A561987BD5900E08BDA /* Build configuration list for PBXProject "map" */ = {
+		4D461A561987BD5900E08BDA /* Build configuration list for PBXProject "qwerty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D461A911987BD5A00E08BDA /* Debug */,
@@ -485,7 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D461A931987BD5A00E08BDA /* Build configuration list for PBXNativeTarget "map" */ = {
+		4D461A931987BD5A00E08BDA /* Build configuration list for PBXNativeTarget "qwerty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D461A941987BD5A00E08BDA /* Debug */,
@@ -494,7 +493,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D461A961987BD5A00E08BDA /* Build configuration list for PBXNativeTarget "mapTests" */ = {
+		4D461A961987BD5A00E08BDA /* Build configuration list for PBXNativeTarget "qwertyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D461A971987BD5A00E08BDA /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4D461A5A1987BD5900E08BDA"
-               BuildableName = "map.app"
-               BlueprintName = "map"
-               ReferencedContainer = "container:map.xcodeproj">
+               BuildableName = "qwerty.app"
+               BlueprintName = "qwerty"
+               ReferencedContainer = "container:qwerty.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4D461A811987BD5900E08BDA"
-               BuildableName = "mapTests.xctest"
-               BlueprintName = "mapTests"
-               ReferencedContainer = "container:map.xcodeproj">
+               BuildableName = "qwertyTests.xctest"
+               BlueprintName = "qwertyTests"
+               ReferencedContainer = "container:qwerty.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4D461A5A1987BD5900E08BDA"
-            BuildableName = "map.app"
-            BlueprintName = "map"
-            ReferencedContainer = "container:map.xcodeproj">
+            BuildableName = "qwerty.app"
+            BlueprintName = "qwerty"
+            ReferencedContainer = "container:qwerty.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4D461A5A1987BD5900E08BDA"
-            BuildableName = "map.app"
-            BlueprintName = "map"
-            ReferencedContainer = "container:map.xcodeproj">
+            BuildableName = "qwerty.app"
+            BlueprintName = "qwerty"
+            ReferencedContainer = "container:qwerty.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4D461A5A1987BD5900E08BDA"
-            BuildableName = "map.app"
-            BlueprintName = "map"
-            ReferencedContainer = "container:map.xcodeproj">
+            BuildableName = "qwerty.app"
+            BlueprintName = "qwerty"
+            ReferencedContainer = "container:qwerty.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
